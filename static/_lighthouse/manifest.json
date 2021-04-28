@@ -1,11 +1,11 @@
 [
   {
-    "url": "http://localhost:43775/",
+    "url": "http://localhost:35139/",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/quasar/quasar/dist/ssg/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/quasar/quasar/dist/ssg/_lighthouse/_.report.json",
     "summary": {
-      "performance": 0.86,
+      "performance": 0.95,
       "accessibility": 0.82,
       "best-practices": 1,
       "seo": 1,
@@ -13,7 +13,7 @@
     }
   },
   {
-    "url": "http://localhost:43775/",
+    "url": "http://localhost:35139/",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/quasar/quasar/dist/ssg/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/quasar/quasar/dist/ssg/_lighthouse/_.report.json",
@@ -26,12 +26,12 @@
     }
   },
   {
-    "url": "http://localhost:43775/",
+    "url": "http://localhost:35139/",
     "isRepresentativeRun": true,
     "htmlPath": "/home/runner/work/quasar/quasar/dist/ssg/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/quasar/quasar/dist/ssg/_lighthouse/_.report.json",
     "summary": {
-      "performance": 1,
+      "performance": 0.99,
       "accessibility": 0.82,
       "best-practices": 1,
       "seo": 1,
