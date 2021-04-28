@@ -2,7 +2,7 @@
   "ci":{
     "collect":{
       "url": ["/"],
-      "staticDistDir":"./dist",
+      "staticDistDir":"./dist/spa",
       "isSinglePageApplication": true
     },
     "assert":{
@@ -13,7 +13,7 @@
     },
     "upload":{
       "target":"filesystem",
-      "outputDir":"./dist/_lighthouse",
+      "outputDir":"./dist/spa/_lighthouse",
       "reportFilenamePattern": "%%PATHNAME%%.report.%%EXTENSION%%"
     }
   }

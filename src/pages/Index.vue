@@ -1,47 +1,22 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <example-component
-      title="Example component"
-      active
-      :todos="todos"
-      :meta="meta"
-    ></example-component>
-  </q-page>
+  <section>
+    <h2>Home</h2>
+    <Todos />
+  </section>
 </template>
 
 <script lang="ts">
-import { Todo, Meta } from 'components/models';
-import ExampleComponent from 'components/ClassComponent.vue';
 import { Vue, Component } from 'vue-property-decorator';
+import Todos from '../components/Todos.vue';
 
 @Component({
-  components: { ExampleComponent }
-})
-export default class PageIndex extends Vue {
-  todos: Todo[] = [
-    {
-      id: 1,
-      content: 'ct1'
-    },
-    {
-      id: 2,
-      content: 'ct2'
-    },
-    {
-      id: 3,
-      content: 'ct3'
-    },
-    {
-      id: 4,
-      content: 'ct4'
-    },
-    {
-      id: 5,
-      content: 'ct5'
+  components: { Todos },
+  meta: {
+    title: 'Lighthouse Test | Quasar',
+    meta: {
+      description: { name: 'description', content: 'Lighthouse Test | Quasar' }
     }
-  ];
-  meta: Meta = {
-    totalCount: 1200
-  };
-};
+  }
+})
+export default class PageIndex extends Vue {}
 </script>

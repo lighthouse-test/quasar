@@ -2,7 +2,7 @@
   "ci":{
     "collect":{
       "url": ["http://localhost:3000/"],
-      "startServerCommand":"yarn start"
+      "startServerCommand":"cd dist/ssr && yarn start"
     },
     "assert":{
       "assertions":{
@@ -12,7 +12,7 @@
     },
     "upload":{
       "target":"filesystem",
-      "outputDir":"./dist/_lighthouse",
+      "outputDir":"./dist/ssr/_lighthouse",
       "reportFilenamePattern": "%%PATHNAME%%.report.%%EXTENSION%%"
     }
   }

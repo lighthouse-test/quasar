@@ -1,26 +1,75 @@
-# Quasar App (quasar)
+<h1 align="center">Welcome to @lighthouse-test 👋</h1>
+<p>
+  <a href="https://github.com/lighthouse-test/quasar/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/lighthouse-test/quasar/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/@lighthouse-test/quasar" />
+  </a>
+  <a href="https://twitter.com/aceonics" target="_blank">
+    <img alt="Twitter: aceonics" src="https://img.shields.io/twitter/follow/aceonics.svg?style=social" />
+  </a>
+</p>
 
-A Quasar Framework app
+<p>
+  SPA Mode
+  <a href="https://lighthouse-test.github.io/quasar/spa/_lighthouse/_.report.html">
+    <img src="https://lighthouse-test.github.io/quasar/spa/_lighthouse/_.performance.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/spa/_lighthouse/_.accessibility.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/spa/_lighthouse/_.best-practices.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/spa/_lighthouse/_.seo.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/spa/_lighthouse/_.pwa.svg" />
+  </a>
+</p>
 
-## Install the dependencies
-```bash
-yarn
-```
+<p>
+  SSR Mode
+  <a href="https://lighthouse-test.github.io/quasar/ssr/_lighthouse/_.report.html">
+    <img src="https://lighthouse-test.github.io/quasar/ssr/_lighthouse/_.performance.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/ssr/_lighthouse/_.accessibility.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/ssr/_lighthouse/_.best-practices.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/ssr/_lighthouse/_.seo.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/ssr/_lighthouse/_.pwa.svg" />
+  </a>
+</p>
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+<p>
+  Static Mode
+  <a href="https://lighthouse-test.github.io/quasar/static/_lighthouse/_.report.html">
+    <img src="https://lighthouse-test.github.io/quasar/static/_lighthouse/_.performance.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/static/_lighthouse/_.accessibility.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/static/_lighthouse/_.best-practices.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/static/_lighthouse/_.seo.svg" />
+    <img src="https://lighthouse-test.github.io/quasar/static/_lighthouse/_.pwa.svg" />
+  </a>
+</p>
 
-### Lint the files
-```bash
-yarn run lint
-```
+> This repository contains demo app to test the light house score. This is part of lighthouse test.
 
-### Build the app for production
-```bash
-quasar build
-```
+### 🏠 [Lighthouse Results](https://lighthouse-test.github.io)
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+## Author
+
+👤 **Aceonics Reliable IT Services**
+
+- Website: [https://www.aceonics.com](https://www.aceonics.com)
+- Twitter: [@aceonics](https://twitter.com/aceonics)
+- Github: [aceonics](https://github.com/aceonics)
+- LinkedIn: [aceonics](https://linkedin.com/company/aceonics)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/lighthouse-test/lighthouse.github.io/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Aceonics Reliable IT Services](https://www.aceonics.com).<br />
+This project is [MIT](https://github.com/lighthouse-test/quasar/blob/master/LICENSE) licensed.
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
