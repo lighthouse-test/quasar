@@ -1,9 +1,7 @@
 <template>
-  <!-- <q-layout view="lHh Lpr lFf">
-    <q-page-container> -->
   <section>
     <header>
-      <h1>SvelteKit Demo</h1>
+      <h1>Quasar Demo</h1>
       <nav>
         <a href="/">Home</a>
       </nav>
@@ -22,8 +20,6 @@
       </a>
     </footer>
   </section>
-  <!-- </q-page-container>
-  </q-layout> -->
 </template>
 
 <script lang="ts">
@@ -32,5 +28,5 @@ import { Vue, Component } from 'vue-property-decorator';
 @Component({
   components: {}
 })
-export default class MainLayout extends Vue {}
+export default class Default extends Vue {}
 </script>
