@@ -4,20 +4,20 @@
     "css/app.465dc8e7.css",
     "css/vendor.280d217c.css",
     "favicon.ico",
-    "js/2.afc6e9d5.js",
+    "js/2.1d13b20b.js",
     "js/3.d03556c1.js",
     "js/4.4ee087ae.js",
-    "js/app.ea21924d.js",
+    "js/app.0b74e437.js",
     "js/vendor.0d04650b.js"
   ],
   "initial": [
     "css/vendor.280d217c.css",
     "js/vendor.0d04650b.js",
     "css/app.465dc8e7.css",
-    "js/app.ea21924d.js"
+    "js/app.0b74e437.js"
   ],
   "async": [
-    "js/2.afc6e9d5.js",
+    "js/2.1d13b20b.js",
     "js/3.d03556c1.js",
     "js/4.4ee087ae.js"
   ],
