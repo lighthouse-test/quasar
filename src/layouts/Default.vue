@@ -3,7 +3,7 @@
     <header>
       <h1>Quasar Demo</h1>
       <nav>
-        <a href="/">Home</a>
+        <router-link to="/">Home</router-link>
       </nav>
     </header>
     <br />
