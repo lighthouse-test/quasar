@@ -33,6 +33,7 @@
             <button type="button" @click="selectTodoHandler(todo.id)">
               Edit
             </button>
+            &nbsp;
             <button type="button" @click="deleteTodoHandler(todo.id)">
               Delete
             </button>
