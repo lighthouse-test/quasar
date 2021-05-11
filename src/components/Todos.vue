@@ -7,7 +7,7 @@
       @onAddOrUpdate="onUpdateTodoHandler"
     />
     <br />
-    <table>
+    <table width="100%">
       <thead>
         <tr>
           <th>Id</th>
