@@ -6,20 +6,20 @@
     "favicon.ico",
     "js/2.1d13b20b.js",
     "js/3.d03556c1.js",
-    "js/4.af9ad4cb.js",
-    "js/app.30809009.js",
+    "js/4.650ac764.js",
+    "js/app.9544f406.js",
     "js/vendor.0d04650b.js"
   ],
   "initial": [
     "css/vendor.280d217c.css",
     "js/vendor.0d04650b.js",
     "css/app.465dc8e7.css",
-    "js/app.30809009.js"
+    "js/app.9544f406.js"
   ],
   "async": [
     "js/2.1d13b20b.js",
     "js/3.d03556c1.js",
-    "js/4.af9ad4cb.js"
+    "js/4.650ac764.js"
   ],
   "modules": {
     "59819655": [
