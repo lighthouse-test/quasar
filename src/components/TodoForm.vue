@@ -5,7 +5,7 @@
       <table>
         <tbody>
           <tr>
-            <th>
+            <th align="left">
               <label for="name">Name</label>
             </th>
             <td>
@@ -20,7 +20,7 @@
             <td>{{ errors.name }}</td>
           </tr>
           <tr>
-            <th>
+            <th align="left">
               <label for="description">Description</label>
             </th>
             <td>
@@ -34,7 +34,7 @@
             <td>{{ errors.description }}</td>
           </tr>
           <tr>
-            <th>
+            <th align="left">
               <label>Type</label>
             </th>
             <td>
@@ -47,7 +47,7 @@
             <td>{{ errors.type }}</td>
           </tr>
           <tr>
-            <th>
+            <th align="left">
               <label>Confidential</label>
             </th>
             <td>
@@ -86,7 +86,7 @@
             <td></td>
           </tr>
           <tr>
-            <th>
+            <th align="left">
               <label for="date">Date</label>
             </th>
             <td>

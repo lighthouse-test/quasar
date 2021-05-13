@@ -4,23 +4,23 @@
     <table>
       <tbody>
         <tr>
-          <th>Name</th>
+          <th align="left">Name</th>
           <td>
             {{ todo.name }}
           </td>
         </tr>
         <tr>
-          <th>Description</th>
+          <th align="left">Description</th>
           <td>
             {{ todo.description }}
           </td>
         </tr>
         <tr>
-          <th>Type</th>
+          <th align="left">Type</th>
           <td>{{ todo.type }}</td>
         </tr>
         <tr>
-          <th>Confidential</th>
+          <th align="left">Confidential</th>
           <td>
             {{ todo.confidential }}
           </td>
@@ -30,7 +30,7 @@
           <td>{{ todo.remind }}</td>
         </tr>
         <tr>
-          <th>Date</th>
+          <th align="left">Date</th>
           <td>{{ todo.date }}</td>
         </tr>
         <tr>
