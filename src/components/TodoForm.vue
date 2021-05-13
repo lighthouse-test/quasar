@@ -1,7 +1,7 @@
 <template>
   <section>
     <h4>{{ todo.id ? 'Update' : 'Add' }} Todo</h4>
-    <form v-on:submit="updateTodoHandler" novalidate>
+    <form novalidate @submit="updateTodoHandler">
       <table>
         <tbody>
           <tr>
@@ -11,9 +11,9 @@
             <td>
               <input
                 id="name"
+                v-model="todo.name"
                 type="text"
                 name="name"
-                v-model="todo.name"
                 required
               />
             </td>
@@ -21,13 +21,13 @@
           </tr>
           <tr>
             <th>
-              <label for="description">description</label>
+              <label for="description">Description</label>
             </th>
             <td>
               <textarea
                 id="description"
-                name="description"
                 v-model="todo.description"
+                name="description"
                 required
               ></textarea>
             </td>
@@ -38,7 +38,7 @@
               <label>Type</label>
             </th>
             <td>
-              <select id="type" name="type" v-model="todo.type" required>
+              <select id="type" v-model="todo.type" name="type" required>
                 <option v-for="type in types" :key="type" :value="type">
                   {{ type }}
                 </option>
@@ -54,18 +54,18 @@
               <label for="confidential1">Yes</label>
               <input
                 id="confidential1"
+                v-model="todo.Confidential"
                 type="radio"
                 name="confidential"
                 value="Yes"
-                v-model="todo.Confidential"
               />
               <label for="confidential2">No</label>
               <input
                 id="confidential2"
+                v-model="todo.Confidential"
                 type="radio"
                 name="confidential"
                 value="No"
-                v-model="todo.Confidential"
               />
             </td>
             <td></td>
@@ -78,9 +78,9 @@
               <label for="remind">Yes</label>
               <input
                 id="remind"
+                v-model="todo.remind"
                 type="checkbox"
                 name="remind"
-                v-model="todo.remind"
               />
             </td>
             <td></td>
@@ -92,9 +92,9 @@
             <td>
               <input
                 id="date"
+                v-model="todo.date"
                 type="date"
                 name="date"
-                v-model="todo.date"
                 required
               />
             </td>

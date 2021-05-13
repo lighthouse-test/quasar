@@ -1,8 +1,13 @@
 <template>
   <section>
     <h3>Todos <button @click="addTodoHandler()">New</button></h3>
+    <TodoView
+      v-if="currentTodo && currentEvent === 'view'"
+      :todo="currentTodo"
+      @onClose="() => (currentTodo = null)"
+    />
     <TodoForm
-      v-if="currentTodo"
+      v-if="currentTodo && currentEvent === 'edit'"
       :todo="currentTodo"
       @onAddOrUpdate="onUpdateTodoHandler"
     />
@@ -21,7 +26,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr :key="todo.id" v-for="todo in todos">
+        <tr v-for="todo in todos" :key="todo.id">
           <td>{{ todo.id }}</td>
           <td>{{ todo.name }}</td>
           <td>{{ todo.description }}</td>
@@ -30,7 +35,11 @@
           <td>{{ todo.remind.toString() }}</td>
           <td>{{ todo.date }}</td>
           <td>
-            <button type="button" @click="selectTodoHandler(todo.id)">
+            <button type="button" @click="selectTodoHandler(todo.id, 'view')">
+              View
+            </button>
+            &nbsp;
+            <button type="button" @click="selectTodoHandler(todo.id, 'edit')">
               Edit
             </button>
             &nbsp;
@@ -54,25 +63,30 @@ import {
   Todo,
   updateTodo
 } from './todos';
+import TodoView from './TodoView.vue';
 import TodoForm from './TodoForm.vue';
 
 @Component({
   components: {
+    TodoView,
     TodoForm
   }
 })
 export default class Todos extends Vue {
   currentTodo: Partial<Todo> | null = null;
+  currentEvent: string | null = null;
   todos: Todo[] = getTodos();
 
   addTodoHandler() {
+    this.currentEvent = 'edit';
     this.currentTodo = {
       confidential: 'No',
       remind: false
     };
   }
 
-  selectTodoHandler(id: number) {
+  selectTodoHandler(id: number, currentEvent: string) {
+    this.currentEvent = currentEvent;
     this.currentTodo = getTodo(id);
   }
 
